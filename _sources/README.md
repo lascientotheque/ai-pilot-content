@@ -8,10 +8,10 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 
 * Développent une compréhension de base de ce qu'est l'intelligence artificielle (IA)
 * Découvrent comment les machines peuvent gagner en intelligence
-* Apprennent ce que sont un ensemble de données et un algorithme.
-* Entraînent une machine à reconnaître des images et créer une IA
-* Créent et programment une application utilisant une IA
-* Comprennent comment les machines peuvent être biaisées, et débattent sur les limites des solutions basées sur l'IA.
+* Apprennent ce que sont un jeu de données et une prédiction
+* Créent une IA de reconnaissance d'images
+* Utilisent et programment une application utilisant une IA de reconnaissance d'images
+* Débattent sur les limites des solutions basées sur l'IA en comprenant le problème du biais dans les jeux de données
 
 ## Qui sommes-nous?
 
