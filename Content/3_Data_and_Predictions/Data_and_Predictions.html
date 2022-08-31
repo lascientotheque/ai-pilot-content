@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Données et prédictions &#8212; Contenu pilote</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/book.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/gtag_0.js"></script>
+    <script src="../../_static/gtag_1.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script >const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/robot.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Contenu pilote</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../README.html">
+   Aperçu
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../README2.html">
+   1. Aperçu
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/Content/3_Data_and_Predictions/Data_and_Predictions.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/lascientotheque/fetchbot-fr"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/lascientotheque/fetchbot-fr/issues/new?title=Issue%20on%20page%20%2FContent/3_Data_and_Predictions/Data_and_Predictions.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/lascientotheque/fetchbot-fr/edit/main/Content/3_Data_and_Predictions/Data_and_Predictions.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#objectif">
+   Objectif
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#phase-1-jeux-de-donnees-et-predictions-et-le-jeu-du-pictionary">
+   Phase 1 : Jeux de données et prédictions, et le jeu du Pictionary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#phase-2-apprentissage-automatique-et-le-jeu-google-quick-draw">
+   Phase 2 : Apprentissage automatique, et le jeu Google Quick, Draw
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#phase-3-bingo-de-lia">
+   Phase 3 : Bingo de l’IA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references-et-liens-utiles">
+   Références et liens utiles
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="donnees-et-predictions">
+<span id="data-predictions"></span><h1>Données et prédictions<a class="headerlink" href="#donnees-et-predictions" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="objectif">
+<h2>Objectif<a class="headerlink" href="#objectif" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Introduire l’apprentissage automatique et connaître ses trois composantes clés : le jeu de données, l’algorithme et la prédiction</p></li>
+<li><p>Reconnaître les systèmes d’IA dans la vie quotidienne et être capable de raisonner sur la prédiction d’un système d’IA et les ensembles de données potentiels que le système d’IA utilise.
+Découvrir l’apprentissage automatique en entraînant un système de reconnaissance d’images avec l’outil en ligne ‘Teachable Machine’ de Google.</p></li>
+</ul>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:left head"><p></p></th>
+<th class="text-align:left head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:left"><p>Âge</p></td>
+<td class="text-align:left"><p>10 à 18 ans</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Notions abordées</p></td>
+<td class="text-align:left"><p>Apprentissage automatique, jeux de données, algorithmes, prédictions.</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:left"><p>Durée</p></td>
+<td class="text-align:left"><p>Entre 1 et 2 heures</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:left"><p>Dispositif pédagogiques</p></td>
+<td class="text-align:left"><p>Par groupe de 2</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Matériel</strong></p>
+<ul class="simple">
+<li><p>1 ordinateur avec connexion internet par participant ou groupe de deux</p></li>
+<li><p>1 ordinateur (animatrice.eur)</p></li>
+<li><p>1 vidéo projecteur (animatrice.eur)</p></li>
+<li><p>Tableau</p></li>
+</ul>
+<h1>Description détaillée</h1>
+</div>
+<div class="section" id="phase-1-jeux-de-donnees-et-predictions-et-le-jeu-du-pictionary">
+<h2>Phase 1 : Jeux de données et prédictions, et le jeu du Pictionary<a class="headerlink" href="#phase-1-jeux-de-donnees-et-predictions-et-le-jeu-du-pictionary" title="Permalink to this headline">¶</a></h2>
+<p>Découvrir les éléments clefs de l’apprentissage automatique (jeux de données, algorithme et prédictions) avec le jeu du Pictionary.</p>
+<p><a class="reference internal" href="../../_images/drawings.jpg"><img alt="../../_images/drawings.jpg" src="../../_images/drawings.jpg" style="width: 600px;" /></a></img></p>
+<p>Etapes de l’activité :</p>
+<ol class="simple">
+<li><p>Demandez à la classe comment, selon elle, les machines acquièrent de l’intelligence. Si personne ne le dit, clarifiez que “les humains programment ou écrivent du code pour leur donner de l’intelligence”.</p></li>
+<li><p>Projetez la diapositive qui montre que la plupart des machines acquièrent de l’intelligence en trois étapes : jeux de données, algorithmes, prédictions. Nous parlerons des algorithmes plus tard, mais commençons par les jeux de données et les prédictions.</p></li>
+<li><p>Demandez à la classe si quelqu’un sait ce qu’est un jeu de données ? Si non, à quoi cela vous fait-il penser ?</p></li>
+<li><p>Expliquez à la classe qu’un jeu de données est une collection de données que vous rassemblez. Les données peuvent inclure n’importe quoi ! Nous pensons généralement que les données sont des chiffres, mais il peut également s’agir d’un ensemble de textes, de vidéos ou d’images.</p></li>
+<li><p>Demandez aux élèves s’ils savent ce qu’est une prédiction. Comment une personne fait-elle une prédiction ? Si personne ne le dit, veillez à souligner que les prédictions sont souvent faites sur la base de connaissances préalables. Cela fait partie de l’apprentissage et donc de l’intelligence.</p></li>
+<li><p>Dites aux élèves que vous allez jouer à un jeu dans lequel vous allez commencer à dessiner une image au tableau et qu’ils vont essayer de prédire ce que vous dessinez en moins de 20 secondes. Demandez à un élève d’être le chronométreur et aux autres élèves de deviner.</p></li>
+<li><p>Commencez à dessiner des images simples (vous pouvez utiliser celles que vous voulez, mais nous vous suggérons une maison, un oiseau, une horloge, une pomme ou toute autre chose que vous vous sentez à l’aise de dessiner et qui, selon vous, sera facilement reconnaissable par vos élèves). Dites aux élèves qu’ils peuvent crier leurs prédictions pendant que vous dessinez et que le chronomètre enregistrera le temps qu’il vous faut pour prédire correctement chaque prédiction. Vous pouvez dessiner autant d’images que vous le souhaitez, mais nous suggérons au moins 3 ou 4.</p></li>
+<li><p>Demandez aux élèves comment ils ont pu prédire les bonnes réponses aussi souvent, étant donné que vous ne leur aviez pas dit ce que vous dessiniez et qu’ils n’avaient jamais vu aucun de ces dessins exacts auparavant. Assurez-vous qu’il ressort qu’ils ont utilisé des images ou des photos d’autres maisons, d’oiseaux, d’horloges qu’ils avaient déjà vus et qu’ils les ont fait correspondre aux formes que vous dessiniez pour faire une prédiction.</p></li>
+<li><p>Expliquez que les images et les photos qu’ils ont vues auparavant font partie d’un “jeu de données” personnel auquel ils ne pensent peut-être pas, mais qu’ils utilisent en permanence. Expliquez que c’est souvent de cette manière que nous prédisons et prenons des décisions sans même y penser. Demandez-leur de citer d’autres ensembles de données qu’ils pourraient avoir et utiliser de la même manière. De la nourriture ? Des situations dangereuses ? “Je n’ai jamais mangé une part de ce gâteau, mais j’en prends une bouchée parce qu’il ressemble à quelque chose que j’ai mangé dans le passé et que je vais l’aimer.” “Je ne vais pas entrer dans ce nouveau bâtiment parce qu’il ressemble à un autre bâtiment qui fait peur”.</p></li>
+</ol>
+</div>
+<div class="section" id="phase-2-apprentissage-automatique-et-le-jeu-google-quick-draw">
+<h2>Phase 2 : Apprentissage automatique, et le jeu Google Quick, Draw<a class="headerlink" href="#phase-2-apprentissage-automatique-et-le-jeu-google-quick-draw" title="Permalink to this headline">¶</a></h2>
+<p>Expérimenter l’apprentissage automatique avec l’outil Quick, Draw pour la reconnaissance d’images.</p>
+<p><a class="reference internal" href="../../_images/Quick_Draw.jpg"><img alt="../../_images/Quick_Draw.jpg" src="../../_images/Quick_Draw.jpg" style="width: 600px;" /></a></img></p>
+<p>Etapes de l’activité :</p>
+<ol class="simple">
+<li><p>Dites aux élèves que nous allons maintenant tester une machine qui va essayer de faire la même chose que ce qu’ils viennent de faire. Demandez-leur d’aller sur <a class="reference external" href="https://quickdraw.withgoogle.com/?locale=fr">Google Quick, Draw</a>. Chacun d’entre eux doit suivre les instructions et dessiner les éléments qui lui sont demandés. (Si vous pensez devoir leur montrer comment utiliser Google Quick, Draw avant qu’ils ne travaillent seuls, vous pouvez vous projeter en train d’utiliser Google Quick, Draw d’abord, puis leur demander de le faire eux-mêmes).</p></li>
+<li><p>Lorsque les élèves ont terminé l’exercice sur Google Quick, Draw, demandez-leur combien de leurs dessins Google Quick, Draw a pu prédire les formes qu’ils ont dessinées. Demandez-leur comment ils pensent que Google Quick, Draw a fait cela.</p></li>
+<li><p>Montrez-leur le <a class="reference external" href="https://quickdraw.withgoogle.com/data">jeu de données de Google Quick, Draw</a>. Expliquez que la machine utilise cet ensemble de données d’une manière très similaire à celle dont nous avons utilisé nos propres ensembles de données personnelles pour prédire sa réponse. Demandez aux élèves s’ils pensent que Google Quick, Draw est intelligent. Pourquoi ou pourquoi pas ?</p></li>
+</ol>
+</div>
+<div class="section" id="phase-3-bingo-de-lia">
+<h2>Phase 3 : Bingo de l’IA<a class="headerlink" href="#phase-3-bingo-de-lia" title="Permalink to this headline">¶</a></h2>
+<p>Le Bingo de l’IA permet aux jeunes de discuter des jeux de données et prédictions d’autres systèmes d’IA (Recommandation sur Youtube, publicité sur Instagram, traduction automatique, prédictions météorologiques, etc..).</p>
+<p><a class="reference internal" href="../../_images/Bingo.jpg"><img alt="../../_images/Bingo.jpg" src="../../_images/Bingo.jpg" style="width: 800px;" /></a></img></p>
+<p>Trois variantes sont possibles :
+Variante 1 : C’est la <a class="reference external" href="https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view">version originale du jeu</a>. Les cartes Bingo (en annexe, « BINGO de l’IA.pdf ») sont distribuées aux élèves (une par groupe de deux élèves). Par groupe de deux, les élèves doivent identifier la prédiction que le système essaie de faire et l’ensemble de données qu’il pourrait utiliser pour faire cette prédiction. Le premier groupe à remplir cinq cases d’affilée, en diagonale ou en colonne gagne (ou, pour un jeu plus long, le premier élève à obtenir deux rangées/diagonales/colonnes).</p>
+<p>Variante 2 : La carte de Bingo est assez dense. On peut limiter à certains exemples, par exemple 7 comme sur la feuille proposée annexe (« BINGO de l’IA_7.pdf »), et demander aux élèves, toujours par groupe de deux, de choisir 3 exemples parmi les 7 et écrire quels peuvent être les jeux de données et prédictions du système d’IA. On mettra ensuite en commun, en parcourant tous les exemples, et en demandant aux élèves qui ont choisi l’exemple de donner leur réponse.</p>
+<p>Variante 3 : Sans distribuer d’exemples, l’animateur demandera aux élèves s’ils peuvent penser à des machines avec lesquelles ils interagissent aujourd’hui et qui utilisent des ensembles de données pour faire d’autres prédictions.  S’ils n’y pensent pas, suggérez des exemples comme Siri, Alexa (voix), l’iPhone (reconnaissance des visages et des empreintes de pouce), YouTube, Netflix (vidéos recommandées), les publicités (recherche Google) ou tout autre outil que vos élèves pourraient connaître. Demandez-leur quels ensembles de données chacune de ces machines utilise. La feuille Bingo peut être utilisée comme source d’exemples par l’animateur.</p>
+<p><strong>Transition vers des activités sur les algorithmes</strong></p>
+<p>Revenez à la diapositive du début de la leçon : ensemble de données, algorithme, prédiction. Nous avons étudié les jeux de données et les prédictions, mais comment une machine peut-elle prendre un ensemble de données et faire une prédiction ? Elle a besoin d’un algorithme. Des activités de découverte des algorithmes sont proposées dans la section ‘Algorithmes’ à https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/.</p>
+</div>
+<div class="section" id="references-et-liens-utiles">
+<h2>Références et liens utiles<a class="headerlink" href="#references-et-liens-utiles" title="Permalink to this headline">¶</a></h2>
+<p>Inspirée et adaptée des activités proposées par Day of AI et MIT Media Lab Personal Robots Group.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.dayofai.org/activities">Day of AI curriculum</a>.</p></li>
+<li><p><a class="reference external" href="https://bit.ly/3tYYh35">« Ethics of Artificial Intelligence Curriculum for Middle School Students »</a>, created by Blakeley H. Payne with support from the MIT Media Lab Personal Robots Group, directed by Cynthia Breazeal.</p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./Content/3_Data_and_Predictions"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By bla<br/>
+        
+          <div class="extra_footer">
+            <p>
+License: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+</p>
+
+          </div>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
