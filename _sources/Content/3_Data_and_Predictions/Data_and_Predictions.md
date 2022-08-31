@@ -1,5 +1,5 @@
 (Data_Predictions)=
-# Données et prédictions
+# Jeux de données et prédictions
 
 ## Objectif 
 
