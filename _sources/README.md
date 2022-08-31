@@ -15,7 +15,7 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 
 ## Qui sommes-nous?
 
-Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et incluant les organisations suivantes:
+Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et composés des organisations suivantes:
 
 * La Scientothèque
 * BeMaker
