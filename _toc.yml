@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+options:  
+  numbered: True
+chapters:
+- file: Content/1_Introduction_AI/Introduction_AI
+- file: Content/2_Learning_Algorithm/Learning_Algorithm
+- file: Content/3_Data_and_Predictions/Data_and_Predictions
+- file: Content/4_Training_with_Examples/Training_with_Examples
+- file: Content/5_Programming_with_AI/Programming_with_AI
+- file: Content/6_Bias_in_AI/Bias_in_AI
+- file: Content/Additional_Resources/Additional_Resources
