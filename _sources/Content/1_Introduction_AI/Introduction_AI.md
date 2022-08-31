@@ -1,20 +1,20 @@
 (Introduction_AI)=
-# C’est quoi l’Intelligence Artificielle ? 
+# 1. C’est quoi l’Intelligence Artificielle ? 
 
-## Objectifs 
-
-*	Sonder la représentation que se font les jeunes de l’Intelligence Artificielle (IA)
-*	Générer un questionnement sur ce que l’on entend par IA et ce que ça n’est pas
-*	Réfléchir à une définition du terme IA
-
-
+## Aperçu
 
 |||
 :--- | :--- |
-|Âge |10 à 18 ans|
-|Notions abordées|intelligence artificielle, robot, robotique, algorithmes.|
+|Âge |10 à 14 ans|
+|Notions abordées|Intelligence artificielle, classification, algorithme, apprentissage automatique|
 | Durée| Entre 1 et 2 heures|
 | Dispositif pédagogiques| 1 ordinateur / participant ou groupe de deux (version connectée) ou 1 feuille / participant (version déconnectée)|
+
+**Objectifs**
+
+*	Sonder la représentation que se font les jeunes de l’Intelligence Artificielle (IA)
+*	Générer un questionnement sur ce que l’on entend par IA et ce que ça n’est pas
+*	Introduire la notion d'algorithme et d'apprentissage pour les ordinateurs
 
 **Matériel**
 
@@ -24,14 +24,18 @@
 * 1 vidéo projecteur (animatrice.eur)
 
 
+**Annexes**
+
+
+
 <p>
 <h1>Description détaillée</h1>
 
 ## Phase 1 : création d’un nuage de mots collaboratif
 
-Version connectée
+**Version connectée**
 
-* L’animatrice.eur prépare un lien grâce à l’application en ligne answergarden.ch permettant de créer gratuitement des nuages de mots collaboratifs. Il suffit de suivre le lien https://answergarden.ch/create/ et d’indiquer un titre, ici « C’est quoi l’Intelligence artificielle ? ». Parmi les options, il est recommandé de choisir l’option brainstorm (nombre illimité de réponses, possibilité d’entrer plusieurs fois la même réponse), « answer length » à 20, d’entrer une adresse mail pour récupérer le lien vers le nuage de mots créé et de choisir « uppercase » pour ne pas différencier majuscules et minuscules.
+* L’animatrice.eur prépare un lien grâce à l’application en ligne [answergarden.ch](answergarden.ch) permettant de créer gratuitement des nuages de mots collaboratifs. Il suffit de suivre le lien [https://answergarden.ch/create/](https://answergarden.ch/create/) et d’indiquer un titre, ici « C’est quoi l’Intelligence artificielle ? ». Parmi les options, il est recommandé de choisir l’option brainstorm (nombre illimité de réponses, possibilité d’entrer plusieurs fois la même réponse), « answer length » à 20, d’entrer une adresse mail pour récupérer le lien vers le nuage de mots créé et de choisir « uppercase » pour ne pas différencier majuscules et minuscules.
 
 * Le lien est ensuite fourni aux jeunes pour qu’ils puissent entrer leurs mots. 
 
@@ -39,6 +43,8 @@ Version connectée
 
 * Le même exercice peut être réitéré en fin de stage ou d’année scolaire afin de rendre compte de l’évolution de leurs représentations de l’IA.
 Version déconnectée
+
+**Version déconnectée**
 
 * Il est demandé à chacun d’écrire trois mots en lien avec la question posée, dans notre cas « C’est quoi l’Intelligence Artificielle ? ». Il est recommandé de limiter ses propositions à des verbes ou des noms communs au singulier. 
 
@@ -48,7 +54,7 @@ Version déconnectée
 
 ## Phase 2 : se questionner pour tenter de proposer une définition
 
-(inspirée et adaptée de de la fiche pédagogique « Se questionner » issue du MOOC IAI de Class’Code et de « Un programme d'études sur l'éthique de l'intelligence artificielle pour les élèves du secondaire créé par Blakeley H. Payne avec le soutien du MIT Media Lab Personal Robots Group, dirigé par Cynthia Breazeal.)
+*(inspirée et adaptée de de la fiche pédagogique « Se questionner » issue du MOOC IAI de Class’Code et de « Un programme d'études sur l'éthique de l'intelligence artificielle pour les élèves du secondaire créé par Blakeley H. Payne avec le soutien du MIT Media Lab Personal Robots Group, dirigé par Cynthia Breazeal.)*
 
 * La première partie de la vidéo “Se questionner”, issue du MOOC IAI de Class’Code, est présentée jusqu’au carton “Qui a peur de l’IA” (https://www.youtube.com/watch?v=mkfXdzA6B_c). Une fois visionnée, l’animatrice.eur interroge les jeunes sur ce qu’ils pensent des réflexions exposées dans la vidéo. 
 
@@ -114,10 +120,15 @@ On a plutôt tendance à parler d’Intelligence Artificielle dès lors que la s
 	Amener les jeunes à réaliser que c’est l’humain qui utilise son intelligence pour créer la solution. Une machine ne fait que qu’exécuter la solution. La machine n’est pas intelligente, c’est un automate.
 
 
-## Référence et liens utiles
+## Références et liens utiles
 
 * Nuage de mots : [https://answergarden.ch/create/](https://answergarden.ch/create/)
-* [Vidéo associée à la fiche pédagogique « VOUS AVEZ DIT IA ! Se questionner : qui a peur de l’IA ? » issue du module 1 du MOOC IAI développé par Class’Code](https://www.youtube.com/watch?v=mkfXdzA6B_c)
-* [Fiche explicative « Intelligence Artificielle »](https://school-it.info.unamur.be/)
+* Vidéo associée à la fiche pédagogique « VOUS AVEZ DIT IA ! Se questionner : qui a peur de l’IA ? » [issue du module 1 du MOOC IAI développé par Class’Code](https://www.youtube.com/watch?v=mkfXdzA6B_c)
+* Fiche explicative [« Intelligence Artificielle »](https://school-it.info.unamur.be/) de l'Université de Namur
+* [MIT Day of AI](https://www.dayofai.org/)
+* [Le programme d'études 
+sur l'éthique de l'intelligence artificielle 
+pour les élèves de collège](https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view) du MIT Media Lab Personal Robots Group.
+
 
 

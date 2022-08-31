@@ -1,19 +1,20 @@
 (Data_Predictions)=
 # Jeux de données et prédictions
 
-## Objectif 
+## Aperçu
+
+|||
+:--- | :--- |
+|Âge |10 à 14 ans|
+|Notions abordées|Apprentissage automatique, jeux de données, algorithmes, prédictions.|
+| Durée| Entre 1 et 2 heures|
+| Dispositif pédagogiques| Par groupe de 2|
+
+**Objectif**
 
 * Introduire l’apprentissage automatique et connaître ses trois composantes clés : le jeu de données, l’algorithme et la prédiction
 * Reconnaître les systèmes d'IA dans la vie quotidienne et être capable de raisonner sur la prédiction d'un système d'IA et les ensembles de données potentiels que le système d'IA utilise.
 Découvrir l'apprentissage automatique en entraînant un système de reconnaissance d'images avec l'outil en ligne 'Teachable Machine' de Google. 
-
-
-|||
-:--- | :--- |
-|Âge |10 à 18 ans|
-|Notions abordées|Apprentissage automatique, jeux de données, algorithmes, prédictions.|
-| Durée| Entre 1 et 2 heures|
-| Dispositif pédagogiques| Par groupe de 2|
 
 **Matériel**
 
@@ -21,6 +22,12 @@ Découvrir l'apprentissage automatique en entraînant un système de reconnaissa
 * 1 ordinateur (animatrice.eur)
 * 1 vidéo projecteur (animatrice.eur)
 * Tableau 
+
+
+**Annexes**
+
+* Diapositives pour l’animateur (« Introduction à l'apprentissage automatique.pdf »)
+* Feuille à imprimer pour la bingo de l’IA (« BINGO de l'IA.pdf », ou « BINGO de l'IA_7.pdf »)
 
 
 <h1>Description détaillée</h1>
