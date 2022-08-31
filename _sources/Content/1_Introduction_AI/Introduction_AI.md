@@ -26,6 +26,7 @@
 
 **Annexes**
 
+* Fiche pédagogique « VOUS AVEZ DIT IA ! Se questionner : qui a peur de l’IA ? » issue du module 1 du MOOC IAI développé par Class’Code
 
 
 <p>

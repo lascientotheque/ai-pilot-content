@@ -1,5 +1,5 @@
 (Machine_Learning)=
-# Apprentissage automatique et algorithmes
+# 2. Apprentissage automatique et algorithmes
 
 ## Aperçu
 
