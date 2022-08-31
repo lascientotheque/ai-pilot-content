@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Créer une IA &#8212; Contenu pilote</title>
+    <title>4. Créer une IA &#8212; Contenu pilote</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,6 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5. Utiliser une IA dans un programme" href="../5_Programming_with_AI/Programming_with_AI.html" />
+    <link rel="prev" title="3. Données et prédictions" href="../3_Data_and_Predictions/Data_and_Predictions.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -96,10 +98,40 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
  </li>
 </ul>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../../README2.html">
-   1. Aperçu
+  <a class="reference internal" href="../1_Introduction_AI/Introduction_AI.html">
+   1. C’est quoi l’Intelligence Artificielle ?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_Learning_Algorithm/Learning_Algorithm.html">
+   2. Algorithme d’apprentissage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../3_Data_and_Predictions/Data_and_Predictions.html">
+   3. Données et prédictions
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   4. Créer une IA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_Programming_with_AI/Programming_with_AI.html">
+   5. Utiliser une IA dans un programme
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_Bias_in_AI/Bias_in_AI.html">
+   6. Le biais dans l’IA
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Additional_Resources/Additional_Resources.html">
+   7. Aller plus loin
   </a>
  </li>
 </ul>
@@ -193,64 +225,64 @@ const thebe_selector_output = ".output, .cell_output"
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#objectif">
-   Objectif
+   4.1. Objectif
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#introduction">
-   Introduction
+   4.2. Introduction
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#teachable-machine">
-   Teachable machine
+   4.3. Teachable machine
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#interface-pour-entrainer-le-modele">
-   Interface pour entraîner le modèle
+   4.4. Interface pour entraîner le modèle
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#choix-des-classes">
-   Choix des classes
+   4.5. Choix des classes
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#exemple-pour-un-classificateur-de-visages">
-   Exemple pour un classificateur de visages
+   4.6. Exemple pour un classificateur de visages
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#entrainement-et-test-du-modele">
-   Entraînement et test du modèle
+   4.7. Entraînement et test du modèle
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#exportation-du-modele">
-   Exportation du modèle
+   4.8. Exportation du modèle
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#export-du-modele-pour-une-utilisation-avec-scratch-adacraft">
-     Export du modèle pour une utilisation avec Scratch (Adacraft)
+     4.8.1. Export du modèle pour une utilisation avec Scratch (Adacraft)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#export-du-modele-pour-une-utilisation-avec-python">
-     Export du modèle pour une utilisation avec Python
+     4.8.2. Export du modèle pour une utilisation avec Python
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#reconnaissance-de-tubes-sur-un-sol-martien">
-   Reconnaissance de tubes sur un sol martien
+   4.9. Reconnaissance de tubes sur un sol martien
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#ressources-complementaires">
-   Ressources complémentaires
+   4.10. Ressources complémentaires
   </a>
  </li>
 </ul>
@@ -265,9 +297,9 @@ const thebe_selector_output = ".output, .cell_output"
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="creer-une-ia">
-<span id="image-recognition"></span><h1>Créer une IA<a class="headerlink" href="#creer-une-ia" title="Permalink to this headline">¶</a></h1>
+<span id="image-recognition"></span><h1><span class="section-number">4. </span>Créer une IA<a class="headerlink" href="#creer-une-ia" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="objectif">
-<h2>Objectif<a class="headerlink" href="#objectif" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.1. </span>Objectif<a class="headerlink" href="#objectif" title="Permalink to this headline">¶</a></h2>
 <p>Découvrir l’apprentissage automatique en entraînant un système de reconnaissance d’images avec l’outil en ligne ‘Teachable Machine’ de Google.</p>
 <table class="colwidths-auto table">
 <thead>
@@ -298,7 +330,7 @@ const thebe_selector_output = ".output, .cell_output"
 </table>
 </div>
 <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.2. </span>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>La reconnaissance d’images par un ordinateur est une forme d’intelligence artificelle basée sur l’apprentissage automatique: Des exemples d’images de différentes catégories sont montrés à l’ordinateur, et un algorithme d’apprentissage est utilisé pour permettre à l’ordinateur de reconnaître les différentes catégories.</p>
 <p>Vocabulaire utile:</p>
 <ul class="simple">
@@ -313,7 +345,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Ce tutoriel te montrera aussi comment tester ton ‘modèle’ sur de nouvelles images, et exporter ton modèle pour pouvoir l’utiliser dans un programme Scratch ou Python.</p>
 </div>
 <div class="section" id="teachable-machine">
-<h2>Teachable machine<a class="headerlink" href="#teachable-machine" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.3. </span>Teachable machine<a class="headerlink" href="#teachable-machine" title="Permalink to this headline">¶</a></h2>
 <p>Va sur le site de la Teachable Machine à <a class="reference external" href="https://teachablemachine.withgoogle.com">https://teachablemachine.withgoogle.com</a>. Tu peux changer la langue dans la liste déroulante qui se trouve tout en bas de la page, à droite.</p>
 <p>Clique sur “Commencer”.</p>
 <a class="reference internal image-reference" href="../../_images/TM_1_Start.jpg"><img alt="../../_images/TM_1_Start.jpg" src="../../_images/TM_1_Start.jpg" style="width: 900px;" /></a>
@@ -323,7 +355,7 @@ const thebe_selector_output = ".output, .cell_output"
 <a class="reference internal image-reference" href="../../_images/TM_3_Standard_Image_Model.jpg"><img alt="../../_images/TM_3_Standard_Image_Model.jpg" src="../../_images/TM_3_Standard_Image_Model.jpg" style="width: 900px;" /></a>
 </div>
 <div class="section" id="interface-pour-entrainer-le-modele">
-<h2>Interface pour entraîner le modèle<a class="headerlink" href="#interface-pour-entrainer-le-modele" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.4. </span>Interface pour entraîner le modèle<a class="headerlink" href="#interface-pour-entrainer-le-modele" title="Permalink to this headline">¶</a></h2>
 <p>Après avoir cliqué “Modèle d’image standard”, l’interface permettant de faire un entraînement s’affiche:</p>
 <a class="reference internal image-reference" href="../../_images/TM_4_Start_Training.jpg"><img alt="../../_images/TM_4_Start_Training.jpg" src="../../_images/TM_4_Start_Training.jpg" style="width: 900px;" /></a>
 <p>Elle est composée de trois parties:</p>
@@ -334,21 +366,21 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </div>
 <div class="section" id="choix-des-classes">
-<h2>Choix des classes<a class="headerlink" href="#choix-des-classes" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.5. </span>Choix des classes<a class="headerlink" href="#choix-des-classes" title="Permalink to this headline">¶</a></h2>
 <p>Le choix des classes dépend de ce que tu veux faire reconnaître à l’ordinateur. Nous allons ici te montrer deux exemples: Un classifieur qui reconnaît des visages, et un classifieur capable de retrouver des tubes sur un sol martien (ce classifieur pourra servir plus tard pour les activités liées à Mars et à la construction d’un rover).</p>
 <p>Tu peux bien sûr entraîner ton classifieur à faire autre chose, comme reconnaître des objets, des fruits, ou des expressions de visages!</p>
 <p>Pour l’entraînement, prends au moins quelques dizaines d’images. Renomme les classes comme tu le souhaite en cliquant sur l’icône de crayon associé à chaque classe, puis appuie sur l’icône de caméra pour prendre différentes images de la classe correspondante.</p>
 <p>Lorsque tu cliqueras sur la caméra, il est possible que le navigateur Web te demande l’autorisation d’utiliser la caméra. Dans ce cas, autorise-le.</p>
 </div>
 <div class="section" id="exemple-pour-un-classificateur-de-visages">
-<h2>Exemple pour un classificateur de visages<a class="headerlink" href="#exemple-pour-un-classificateur-de-visages" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.6. </span>Exemple pour un classificateur de visages<a class="headerlink" href="#exemple-pour-un-classificateur-de-visages" title="Permalink to this headline">¶</a></h2>
 <p>Dans le cas d’un classifieur de visages, prends une vingtaine d’images pour chacun des visages à reconnaître. Ici, le mieux est de faire l’activité par deux, avec deux classes: Une classe pour ton visage, et l’autre classe pour le visage de celui avec qui tu fais l’activité. Pour les noms des classes, utilise simplement ton nom et celui de ton/ta camarade.</p>
 <p>Veille ici à prendre des exemples aussi variés que possibles (position du visage par rapport à la caméra, conditions d’éclairage, fond de l’image) afin de rendre le système de reconnaissance le plus fiable possible.
 Une fois qu’une vingtaine d’images ont été prises pour chacun de vos deux visages, l’interface ressemblera à ceci:</p>
 <a class="reference internal image-reference" href="../../_images/TM_5_Emotions.jpg"><img alt="../../_images/TM_5_Emotions.jpg" src="../../_images/TM_5_Emotions.jpg" style="width: 900px;" /></a>
 </div>
 <div class="section" id="entrainement-et-test-du-modele">
-<h2>Entraînement et test du modèle<a class="headerlink" href="#entrainement-et-test-du-modele" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.7. </span>Entraînement et test du modèle<a class="headerlink" href="#entrainement-et-test-du-modele" title="Permalink to this headline">¶</a></h2>
 <p>Clique ensuite sur “Entraînement”. Cela prend en général moins d’une minute pour que l’entraînement se termine. Une fois celui-ci terminé, la partie de droite ‘Aperçu’ t’affichera l’image provenant de la webcam, et te permettra de tester ton modèle.</p>
 <a class="reference internal image-reference" href="../../_images/TM_6_Emotions.jpg"><img alt="../../_images/TM_6_Emotions.jpg" src="../../_images/TM_6_Emotions.jpg" style="width: 900px;" /></a>
 <p>Questions à te poser :</p>
@@ -359,17 +391,17 @@ Une fois qu’une vingtaine d’images ont été prises pour chacun de vos deux 
 <p>On peut voir que le système n’ayant appris que deux classes correspondant à deux visages, il essaiera toujours d’associer ce qu’il perçoit à l’un des deux visages, même si ceux-ci ne sont pas présents (ou qu’il sont présents tous les deux). Pour améliorer le système, d’autres classes peuvent être ajoutées (par exemple une classe ‘autre’, contenant des exemples avec aucun visage, ou des deux visages en même temps).</p>
 </div>
 <div class="section" id="exportation-du-modele">
-<h2>Exportation du modèle<a class="headerlink" href="#exportation-du-modele" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.8. </span>Exportation du modèle<a class="headerlink" href="#exportation-du-modele" title="Permalink to this headline">¶</a></h2>
 <p>Exporte ton modèle pour pouvoir l’utiliser ensuite avec Scracth (Adacraft) ou Python. Pour cela, clique sur ‘Exporter’. La fenêtre suivante apparaît:</p>
 <a class="reference internal image-reference" href="../../_images/TM_7_Export.jpg"><img alt="../../_images/TM_7_Export.jpg" src="../../_images/TM_7_Export.jpg" style="width: 600px;" /></a>
 <div class="section" id="export-du-modele-pour-une-utilisation-avec-scratch-adacraft">
-<h3>Export du modèle pour une utilisation avec Scratch (Adacraft)<a class="headerlink" href="#export-du-modele-pour-une-utilisation-avec-scratch-adacraft" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">4.8.1. </span>Export du modèle pour une utilisation avec Scratch (Adacraft)<a class="headerlink" href="#export-du-modele-pour-une-utilisation-avec-scratch-adacraft" title="Permalink to this headline">¶</a></h3>
 <p>Dans l’onglet ‘Tensorflow.js’, clique sur ‘Importer le modèle’. Cela prend environ deux minutes. Un lien vers le modèle apparaîtra comme ci-dessous:</p>
 <a class="reference internal image-reference" href="../../_images/TM_8_Export_Scratch.jpg"><img alt="../../_images/TM_8_Export_Scratch.jpg" src="../../_images/TM_8_Export_Scratch.jpg" style="width: 600px;" /></a>
 <p>Copie-le pour pouvoir le réutiliser plus tard dans le bloc Modèle d’Adacraft (tu peux aussi cliquer sur ‘Copier’ en bas à droite de la fenêtre pour copier le lien, que tu pourras ensuite coller dans Adacraft).</p>
 </div>
 <div class="section" id="export-du-modele-pour-une-utilisation-avec-python">
-<h3>Export du modèle pour une utilisation avec Python<a class="headerlink" href="#export-du-modele-pour-une-utilisation-avec-python" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">4.8.2. </span>Export du modèle pour une utilisation avec Python<a class="headerlink" href="#export-du-modele-pour-une-utilisation-avec-python" title="Permalink to this headline">¶</a></h3>
 <p>Pour l’utilisation du modèle avec Python, il faut utiliser la version Tensorflow Lite du modèle. Pour cela, va dans l’onglet ‘Tensorflow Lite’, et sélectionne ‘Quantifiés’.</p>
 <a class="reference internal image-reference" href="../../_images/TM_9_Export_Python.jpg"><img alt="../../_images/TM_9_Export_Python.jpg" src="../../_images/TM_9_Export_Python.jpg" style="width: 600px;" /></a>
 <p>Clique ensuite sur ‘Télécharger mon modèle’. Tu devras attendre environ 30 secondes pour que le modèle soit converti. Une fenêtre apparaîtra ensuite pour te permettre de télécharger un fichier s’appelant ‘converted_tflite.zip’, qui fait environ 2 mégaoctets. Télécharge le ficher en ouvrant l’archive ‘zip’. L’archive contient deux fichiers:</p>
@@ -381,7 +413,7 @@ Une fois qu’une vingtaine d’images ont été prises pour chacun de vos deux 
 </div>
 </div>
 <div class="section" id="reconnaissance-de-tubes-sur-un-sol-martien">
-<h2>Reconnaissance de tubes sur un sol martien<a class="headerlink" href="#reconnaissance-de-tubes-sur-un-sol-martien" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.9. </span>Reconnaissance de tubes sur un sol martien<a class="headerlink" href="#reconnaissance-de-tubes-sur-un-sol-martien" title="Permalink to this headline">¶</a></h2>
 <p>Le second exemple que nous te donnons a pour but de faire un classifieur capable de dire si un tube est présent sur un sol martien. On distingue donc deux classes: Soit l’image perçue par la caméra contient un échantillon (un tube contenant des poussières de sol martien), soit elle n’en contient pas. Nous appellerons la première classe “Tube”, et la seconde classe “Autre”.</p>
 <p>Pour faire l’entraînement, imprime au préalable l’image ci-dessous. On y voit un tube posé sur un sol martien (le tube est à peu près au centre).</p>
 <a class="reference internal image-reference" href="../../_images/martian-soil-with-tube.jpg"><img alt="../../_images/martian-soil-with-tube.jpg" src="../../_images/martian-soil-with-tube.jpg" style="width: 900px;" /></a>
@@ -394,7 +426,7 @@ Une fois qu’une vingtaine d’images ont été prises pour chacun de vos deux 
 <p>Tu peux exporter ton modèle pour une utilisation vers Adacraft (Scratch) ou Python de la même manière que celle décrite ci-dessus pour la reconnaissance de visages.</p>
 </div>
 <div class="section" id="ressources-complementaires">
-<h2>Ressources complémentaires<a class="headerlink" href="#ressources-complementaires" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">4.10. </span>Ressources complémentaires<a class="headerlink" href="#ressources-complementaires" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://projects.raspberrypi.org/en/projects/image-id-coral/0">Image classification with Google Coral</a></p></li>
 </ul>
@@ -428,7 +460,21 @@ Une fois qu’une vingtaine d’images ont été prises pour chacun de vos deux 
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../3_Data_and_Predictions/Data_and_Predictions.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title"><span class="section-number">3. </span>Données et prédictions</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../5_Programming_with_AI/Programming_with_AI.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">5. </span>Utiliser une IA dans un programme</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
         
         </div>
