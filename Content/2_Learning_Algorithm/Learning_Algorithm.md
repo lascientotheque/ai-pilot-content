@@ -1,17 +1,20 @@
 (Machine_Learning)=
-# Algorithme d'apprentissage
+# 2. Apprentissage automatique et algorithmes
 
-## Objectif
-
-Aborder les mécanismes d’auto-apprentissage omniprésents en matière d’intelligence artificielle et, plus spécifiquement, l’apprentissage par renforcement en utilisant des « machines » physiques jouant au jeu de Nim.
-
+## Aperçu
 
 |||
 :--- | :--- |
-|Âge |10 à 18 ans|
+|Âge |10 à 14 ans|
 |Notions abordées|Intelligence artificielle, algorithme, apprentissage par renforcement, logique, sens des opérateurs ET et OU.|
 | Durée| 2h ou 3h avec extension le jeu de Nim en Scratch|
 | Dispositif pédagogiques| Par groupe de 2|
+
+**Objectif**
+
+Aborder les mécanismes d’apprentissage automatiques omniprésents en matière d’intelligence artificielle et, plus spécifiquement, l’apprentissage par renforcement en utilisant des « machines » physiques jouant au jeu de Nim.
+
+
 
 **Matériel**
 
@@ -21,8 +24,11 @@ Par équipe :
 * 8 allumettes
 * Boules / jetons colorés ou numérotés pour représenter 1, 2 ou 3
 
-<img src="images/Game_Setup.png" width="500"></img>
+<img src="images/Game_Setup.png" width="300"></img>
 
+**Annexes**
+
+* Fiche explicative : le jeu de Nim en Scratch
 
 <h1>Description détaillée</h1>
 
@@ -76,7 +82,7 @@ Par équipe :
 
 * Après un certain nombre de manches (idéalement après qu’un des pots ait été retourné), l’animatrice.eur interroge les participant.e.s pour faire émerger la stratégie qui permet de jouer de manière optimale et de gagner si les circonstances s’y prêtent.
 
-**Auto-apprentissage**
+**Apprentissage automatique**
 
 * Lorsque la machine perd, elle en « déduit » que son dernier coup était fautif. Elle apprend de son erreur en retirant la solution fautive soit le dernier pion concerné. Si pour une situation de jeu, le pot ne contient plus de jetons, cela signifie qu’il n’existe pas de possibilité de gagner et elle doit abandonner.
 
@@ -84,7 +90,7 @@ Par équipe :
 
 * Après un certain nombre de manches, la machine présente la configuration finale ci-dessous dans laquelle elle joue de manière optimale. Il en ressort que si elle commence (c’est différent avec un nombre impair d’allumettes), elle doit abandonner car elle ne peut gagner (sauf si son adversaire commet des erreurs).
 
-<img src="images/Nimm_Phase_2.png" width="500"></img>
+<img src="images/Nimm_Phase_2.png" width="300"></img>
 
 **La stratégie**
 
@@ -119,7 +125,8 @@ max = nombre d’allumettes maximum à retirer par coup
 			* Alternative : Je retire du nombre d’allumettes restantes, le multiple de (max+1) 
 
 			
-Pour aller plus loin : montrer le processus d’auto-apprentissage
+**Pour aller plus loin : montrer le processus d’apprentissage automatique.**
+
 Afin de montrer la totalité du processus d’apprentissage, il est possible d’utiliser le programme scratch dont les fonctionnalités sont détaillées dans la fiche « Jeu de Nim en Scratch » en annexes.
 
 ## ANNEXE : Jeu de Nim en Scratch

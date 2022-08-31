@@ -1,22 +1,22 @@
 (Image_Recognition)=
-# Créer une IA 
+# 4. Créer une IA pour de la reconnaissance d'images
 
-## Objectif
-
-Découvrir l'apprentissage automatique en entraînant un système de reconnaissance d'images avec l'outil en ligne 'Teachable Machine' de Google. 
-
+## Aperçu
 
 |||
 :--- | :--- |
-|Âge |10 à 18 ans|
+|Âge |10 à 14 ans|
 |Notions abordées|Intelligence artificielle, apprentissage automatique, classification d'images, modèle de prédictions.|
 | Durée| 2 heures|
 | Dispositif pédagogiques| Par groupe de 2|
-| Matériel| Un laptop/tablette par groupe de 2, avec connexion à Internet|
-| Prérequis| Aucun|
 
+**Objectif**
 
+Découvrir l'apprentissage automatique en entraînant un système de reconnaissance d'images avec l'outil en ligne 'Teachable Machine' de Google. 
 
+**Matériel** 
+
+* Un laptop/tablette par groupe de 2, avec connexion à Internet
 
 ## Introduction
 
@@ -127,50 +127,7 @@ Dans l'onglet 'Tensorflow.js', clique sur 'Importer le modèle'. Cela prend envi
 
 Copie-le pour pouvoir le réutiliser plus tard dans le bloc Modèle d'Adacraft (tu peux aussi cliquer sur 'Copier' en bas à droite de la fenêtre pour copier le lien, que tu pourras ensuite coller dans Adacraft).
 
-### Export du modèle pour une utilisation avec Python
-
-Pour l'utilisation du modèle avec Python, il faut utiliser la version Tensorflow Lite du modèle. Pour cela, va dans l'onglet 'Tensorflow Lite', et sélectionne 'Quantifiés'.
-
-<img src="images/localisation/TM_9_Export_Python.jpg" width="600"/> 
-
-Clique ensuite sur 'Télécharger mon modèle'. Tu devras attendre environ 30 secondes pour que le modèle soit converti. Une fenêtre apparaîtra ensuite pour te permettre de télécharger un fichier s'appelant 'converted_tflite.zip', qui fait environ 2 mégaoctets. Télécharge le ficher en ouvrant l'archive 'zip'. L'archive contient deux fichiers:
-
-* Un ficher texte 'labels.txt'
-* Un ficher 'model.tflite' qui pourra être ouvert par Python pour utiliser le modèle.
-
-Note: Si tu as un Coral, dans l'onglet 'Tensorflow Lite', sélectionne 'EdgeTPU', puis 'Télécharger mon modèle'.
-
-
-## Reconnaissance de tubes sur un sol martien
-
-Le second exemple que nous te donnons a pour but de faire un classifieur capable de dire si un tube est présent sur un sol martien. On distingue donc deux classes: Soit l'image perçue par la caméra contient un échantillon (un tube contenant des poussières de sol martien), soit elle n'en contient pas. Nous appellerons la première classe "Tube", et la seconde classe "Autre".
-
-Pour faire l'entraînement, imprime au préalable l'image ci-dessous. On y voit un tube posé sur un sol martien (le tube est à peu près au centre). 
-
-<img src="images/martian-soil-with-tube.jpg" width="900"/> 
-
-Note : Plutôt que l’image de sol martien avec le tube, tu peux utiliser directement un objet que tu as à portée de main, tel qu’un crayon, une boîte, ou autre.
-
-Les étapes sont ensuite les même que précédemment, pour entraîner, tester et exporter le modèle. 
-
-Pour l'entraînement, définis deux classes: 'Tube' et 'Autre'. Pour la classe' Autre', ajoute des photos avec la webcam de parties de l'image où seul le sol est présent pour la classe sol, ou des photos de toi devant la caméra. Pour la classe 'Tube', prends des photos de l'image imprimée sur lesquelles le tube est visible. Une fois les photos prises pour les deux classes, tu devrais obtenir un jeu de données tel que celui illustré ci-dessous:
-
-<img src="images/localisation/TM_5_Tube_Other.jpg" width="900"/> 
-
-Lance ensuite l'entraînement en cliquant sur le bouton 'Entraînement'. Une fois celui-ci terminé (environ une minute), tu peux tester ton modèle en déplaçant la feuille devant la webcam. Vérifie que le modèle reconnaît correctement la présence du tube:
-
-<img src="images/localisation/TM_6_Tube_Other.jpg" width="900"/> 
-
-Tu peux exporter ton modèle pour une utilisation vers Adacraft (Scratch) ou Python de la même manière que celle décrite ci-dessus pour la reconnaissance de visages.
-
-
 ## Ressources complémentaires
 
 * [Image classification with Google Coral](https://projects.raspberrypi.org/en/projects/image-id-coral/0)
 
-
-
-
-```python
-
-```

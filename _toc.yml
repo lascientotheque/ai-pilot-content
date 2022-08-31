@@ -3,8 +3,8 @@
 
 format: jb-book
 root: README
-options:  
-  numbered: True
+#options:  
+#  numbered: True
 chapters:
 - file: Content/1_Introduction_AI/Introduction_AI
 - file: Content/2_Learning_Algorithm/Learning_Algorithm
