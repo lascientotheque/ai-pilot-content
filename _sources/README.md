@@ -21,7 +21,7 @@ Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEduc
 * BeMaker
 * CollectiveUp
 * ErasmusHogeschool Brussel
-* FARI (AI for the common good institute Brussels)
+* FARI (AI for the common good institute, Brussels)
 
 Les projets ont été soutenus financièrement par
 
