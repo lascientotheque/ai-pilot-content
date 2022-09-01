@@ -15,18 +15,18 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 
 ## Qui sommes-nous?
 
-Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et composés des organisations suivantes:
+Ce contenu a été développé en 2022 dans le cadre des projets [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2) et [Digit@ll](https://digit-all.be/) et composés des organisations suivantes:
 
-* La Scientothèque
-* BeMaker
-* CollectiveUp
-* ErasmusHogeschool Brussel
-* FARI (AI for the common good institute, Brussels)
+* [La Scientothèque](https://www.lascientotheque.be/)
+* [BeMaker](http://www.bemaker.eu/)
+* [CollectiveUp](https://www.collectiveup.be/)
+* [ErasmusHogeschool Brussel](https://www.erasmushogeschool.be/nl)
+* [FARI (AI for the common good institute, Brussels)](https://fari.brussels/)
 
 Les projets ont été soutenus financièrement par
 
-* Le Digital Belgian Skills Fund - DBSF pour le projet AI4InclusiveEducation
-* Innoviris pour le projet Digit@ll
+* [Le Digital Belgian Skills Fund - DBSF](https://dt.bosa.be/fr/dbsf2022) pour le projet [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2)
+* [Innoviris](https://innoviris.brussels/fr) pour le projet [Digit@ll](https://digit-all.be/)
 
 ## Licence
 
@@ -42,6 +42,7 @@ Nous nous sommes inspirés et avons également réutilisés des contenus provena
 * [Le programme d'études 
 sur l'éthique de l'intelligence artificielle 
 pour les élèves de collège](https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view) créé par Blakeley H. Payne avec le soutien du MIT Media Lab Personal Robots Group, dirigé par Cynthia Breazeal.
+* [EduBox Intelligence artificielle](https://www.mediawijs.be/nl/tools/edubox-artificiele-intelligentie)
 
 L'image d'illustration a été générée par l'IA [Dall-E 2](https://openai.com/dall-e-2/), avec le texte 'A painting of a robot holding a green apple and studying in a classroom by René Magritte'.
 

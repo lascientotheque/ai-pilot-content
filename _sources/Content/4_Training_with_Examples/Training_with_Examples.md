@@ -18,6 +18,8 @@ Découvrir l'apprentissage automatique en entraînant un système de reconnaissa
 
 * Un laptop/tablette par groupe de 2, avec connexion à Internet
 
+
+
 ## Introduction
 
 La reconnaissance d'images par un ordinateur est une forme d'intelligence artificelle basée sur l'apprentissage automatique: Des exemples d'images de différentes catégories sont montrés à l'ordinateur, et un algorithme d'apprentissage est utilisé pour permettre à l'ordinateur de reconnaître les différentes catégories. 
