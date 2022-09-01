@@ -18,6 +18,8 @@ Découvrir l'apprentissage automatique en entraînant un système de reconnaissa
 
 * Un laptop/tablette par groupe de 2, avec connexion à Internet
 
+
+
 ## Introduction
 
 La reconnaissance d'images par un ordinateur est une forme d'intelligence artificelle basée sur l'apprentissage automatique: Des exemples d'images de différentes catégories sont montrés à l'ordinateur, et un algorithme d'apprentissage est utilisé pour permettre à l'ordinateur de reconnaître les différentes catégories. 
@@ -127,7 +129,7 @@ Dans l'onglet 'Tensorflow.js', clique sur 'Importer le modèle'. Cela prend envi
 
 Copie-le pour pouvoir le réutiliser plus tard dans le bloc Modèle d'Adacraft (tu peux aussi cliquer sur 'Copier' en bas à droite de la fenêtre pour copier le lien, que tu pourras ensuite coller dans Adacraft).
 
-## Ressources complémentaires
+## Références et liens utiles
 
 * [Image classification with Google Coral](https://projects.raspberrypi.org/en/projects/image-id-coral/0)
 

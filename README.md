@@ -8,20 +8,20 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 
 * Développent une compréhension de base de ce qu'est l'intelligence artificielle (IA)
 * Découvrent comment les machines peuvent gagner en intelligence
-* Apprennent ce que sont un ensemble de données et un algorithme.
-* Entraînent une machine à reconnaître des images et créer une IA
-* Créent et programment une application utilisant une IA
-* Comprennent comment les machines peuvent être biaisées, et débattent sur les limites des solutions basées sur l'IA.
+* Apprennent ce que sont un jeu de données et une prédiction
+* Créent une IA de reconnaissance d'images
+* Utilisent et programment une application utilisant une IA de reconnaissance d'images
+* Débattent sur les limites des solutions basées sur l'IA en comprenant le problème du biais dans les jeux de données
 
 ## Qui sommes-nous?
 
-Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et incluant les organisations suivantes:
+Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et composés des organisations suivantes:
 
 * La Scientothèque
 * BeMaker
 * CollectiveUp
 * ErasmusHogeschool Brussel
-* FARI (AI for the common good institute Brussels)
+* FARI (AI for the common good institute, Brussels)
 
 Les projets ont été soutenus financièrement par
 
@@ -42,6 +42,7 @@ Nous nous sommes inspirés et avons également réutilisés des contenus provena
 * [Le programme d'études 
 sur l'éthique de l'intelligence artificielle 
 pour les élèves de collège](https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view) créé par Blakeley H. Payne avec le soutien du MIT Media Lab Personal Robots Group, dirigé par Cynthia Breazeal.
+* [EduBox Intelligence artificielle](https://www.mediawijs.be/nl/tools/edubox-artificiele-intelligentie)
 
 L'image d'illustration a été générée par l'IA [Dall-E 2](https://openai.com/dall-e-2/), avec le texte 'A painting of a robot holding a green apple and studying in a classroom by René Magritte'.
 
