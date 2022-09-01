@@ -11,7 +11,8 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 * Apprennent ce que sont un jeu de données et une prédiction
 * Créent une IA de reconnaissance d'images
 * Utilisent et programment une application utilisant une IA de reconnaissance d'images
-* Débattent sur les limites des solutions basées sur l'IA en comprenant le problème du biais dans les jeux de données
+* Débattent sur les limites des solutions basées sur l'IA
+
 
 ## Qui sommes-nous?
 
