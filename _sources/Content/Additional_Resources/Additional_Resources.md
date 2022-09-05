@@ -9,6 +9,7 @@
 
 **Néerlandais**
 
+* [https://app.ai-cursus.nl/home]
 * [Flanders AI Academy](https://www.vaia.be/en/)
 
 **Anglais**
