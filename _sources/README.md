@@ -28,7 +28,7 @@ Ce contenu a été développé en 2022 dans le cadre des projets [AI4InclusiveEd
 
 Les projets ont été soutenus financièrement par
 
-* [Le Digital Belgian Skills Fund - DBSF](https://dt.bosa.be/fr/dbsf2022) pour le projet [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2)
+* [Le Digital Belgium Skills Fund - DBSF](https://dt.bosa.be/fr/dbsf2022) pour le projet [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2)
 * [Innoviris](https://innoviris.brussels/fr) pour le projet [Digit@ll](https://digit-all.be/)
 
 ## Licence
