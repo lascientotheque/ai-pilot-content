@@ -9,7 +9,7 @@
 
 **Néerlandais**
 
-* [https://app.ai-cursus.nl/home]
+* [https://app.ai-cursus.nl/home](https://www.vaia.be/en/)
 * [Flanders AI Academy](https://www.vaia.be/en/)
 
 **Anglais**
@@ -57,7 +57,7 @@
 
 ## Notre carnet de resources
 
-* [Carnet de ressources pédagogiques sur l'intelligence artificielle](https://lascientotheque.shinyapps.io/ai-resources/)
+* [Carnet de ressources pédagogiques sur l'intelligence artificielle](https://www.notion.so/ai4ie/de3ce4f7cfc34640b71224ee6128af94?v=99ce9e6f26b34090b8e792935961d6d9)
 
 ### Nos coups de coeur
 

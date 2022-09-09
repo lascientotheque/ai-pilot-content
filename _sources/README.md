@@ -2,7 +2,7 @@
 
 **!! En cours de construction. Finalisation prévue pour octobre 2022 !!**
 
-Ce site propose un contenu pilote pour faire découvrir l'intelligence artificielle aux jeunes de 10 à 14 ans. Il se compose de six activités, d'une durée d'environ 2 heures chacune. 
+Ce site propose un contenu pilote pour faire découvrir l'intelligence artificielle aux jeunes à partir de 10 ans. Il se compose de six activités, d'une durée d'environ 2 heures chacune. 
 
 Pour chaque activité, un protocole pédagogique détaillé à destination des enseignant.e.s est proposé. Le contenu est conçu pour être accessible aux enseignant.e.s sans avoir de connaissances préalables sur le sujet.
 
