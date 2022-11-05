@@ -1,6 +1,8 @@
 # Aperçu
 
-Ce site propose un contenu pilote pour faire découvrir l'intelligence artificielle aux jeunes de 10 à 14 ans. Il se compose de six activités, d'une durée d'environ 2 heures chacune. 
+**!! En cours de construction. Finalisation prévue pour novembre 2022 !!**
+
+Ce site propose un contenu pilote pour faire découvrir l'intelligence artificielle aux enfants (à partir de 10 ans) et aux jeunes adultes. Il se compose de six activités, d'une durée d'environ 2 heures chacune. 
 
 Pour chaque activité, un protocole pédagogique détaillé à destination des enseignant.e.s est proposé. Le contenu est conçu pour être accessible aux enseignant.e.s sans avoir de connaissances préalables sur le sujet.
 
@@ -11,22 +13,23 @@ A travers ces six activités, les objectifs pédagogiques visés sont que les je
 * Apprennent ce que sont un jeu de données et une prédiction
 * Créent une IA de reconnaissance d'images
 * Utilisent et programment une application utilisant une IA de reconnaissance d'images
-* Débattent sur les limites des solutions basées sur l'IA en comprenant le problème du biais dans les jeux de données
+* Débattent sur les limites des solutions basées sur l'IA
+
 
 ## Qui sommes-nous?
 
-Ce contenu a été développé en 2022 dans le cadre des projets AI4InlusiveEducation et Digit@ll et composés des organisations suivantes:
+Ce contenu a été développé en 2022 dans le cadre des projets [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2) et [Digit@ll](https://digit-all.be/) et composés des organisations suivantes:
 
-* La Scientothèque
-* BeMaker
-* CollectiveUp
-* ErasmusHogeschool Brussel
-* FARI (AI for the common good institute, Brussels)
+* [La Scientothèque](https://www.lascientotheque.be/)
+* [BeMaker](http://www.bemaker.eu/)
+* [CollectiveUp](https://www.collectiveup.be/)
+* [ErasmusHogeschool Brussel](https://www.erasmushogeschool.be/nl)
+* [FARI (AI for the common good institute, Brussels)](https://fari.brussels/)
 
 Les projets ont été soutenus financièrement par
 
-* Le Digital Belgian Skills Fund - DBSF pour le projet AI4InclusiveEducation
-* Innoviris pour le projet Digit@ll
+* [Le Digital Belgium Skills Fund - DBSF](https://dt.bosa.be/fr/dbsf2022) pour le projet [AI4InclusiveEducation](https://ai4ie.notion.site/AI4InclusiveEducation-EN-cc66736fc6f1402d9b9d4230f901e9a2)
+* [Innoviris](https://innoviris.brussels/fr) pour le projet [Digit@ll](https://digit-all.be/)
 
 ## Licence
 
