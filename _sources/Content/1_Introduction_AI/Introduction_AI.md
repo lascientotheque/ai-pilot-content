@@ -5,7 +5,7 @@
 
 |||
 :--- | :--- |
-|Âge |10 à 14 ans|
+|Âge |A partir de 10 ans|
 |Notions abordées|Intelligence artificielle, classification, algorithme, apprentissage automatique|
 | Durée| Entre 1 et 2 heures|
 | Dispositif pédagogiques| 1 ordinateur / participant ou groupe de deux (version connectée) ou 1 feuille / participant (version déconnectée)|
@@ -13,7 +13,7 @@
 **Objectifs**
 
 * Phase 1: Sonder la représentation que se font les jeunes de l’Intelligence Artificielle (IA)
-* Phase 2: Développer une compréhension de base de ce qu'est l'intelligence artificielle
+* Phase 2: Développer une compréhension de base de ce qu'est l'intelligence artificielle et proposer une définition
 * Phase 3: Introduire la notion d'algorithme et d'apprentissage pour les ordinateurs (apprentissage automatique)
 * Phase 4: Générer un questionnement sur ce que l’on entend par IA et ce que ça n’est pas
 
